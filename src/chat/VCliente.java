@@ -113,13 +113,13 @@ public class VCliente extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jb_conectar.setBounds(209, 344, 89, 23);
+        jb_conectar.setBounds(194, 387, 89, 23);
 		contentPane.add(jb_conectar);
         
 
         jTextField3 = new JTextField();
         jTextField3.setFont(new Font("Tahoma", Font.BOLD, 11));
-        jTextField3.setBounds(250, 156, 253, 20);
+        jTextField3.setBounds(28, 356, 475, 20);
         jTextField3.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jTextField3KeyPressed(evt);
@@ -147,7 +147,7 @@ public class VCliente extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        jb_desconectar.setBounds(413, 344, 108, 23);
+        jb_desconectar.setBounds(395, 387, 108, 23);
 		contentPane.add(jb_desconectar);
 		
 		scrollPane_chat = new JScrollPane();
